@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', href='/css/style.css')
+    title Ciao Mondo
+  body
+    header.header
+      h1 #{title}
+    article.container
+      each canzoni in cant 
+        div.person
+
+          h2.person-name 
+            br
+            strong Canzoni dell'artista : #{canzoni.titolo}
+            br
+            strong Anno d'uscita : #{canzoni.anno}
+            br
+            strong Album: #{canzoni.album}
+            br
+            strong Genere: #{canzoni.genere}
+            br
+            strong Produttore : #{canzoni.produttore}
+            br
+
+
+  div.container
+    a(href="") 
+    a.button.button-buy(href='/') Pagina Iniziale

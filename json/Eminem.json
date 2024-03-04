@@ -1,0 +1,26 @@
+{
+    "Eminem": [
+      {
+        "titolo": "Stan",
+        "anno": 2000,
+        "album": "The Marshall Mathers LP",
+        "genere": "Hip hop",
+        "produttore": "The 45 King"
+      },
+      {
+        "titolo": "Lose Yourself",
+        "anno": 2002,
+        "album": "8 Mile: Music from and Inspired by the Motion Picture",
+        "genere": "Hip hop",
+        "produttore": "Eminem"
+      },
+      {
+        "titolo": "Rap God",
+        "anno": 2013,
+        "album": "The Marshall Mathers LP 2",
+        "genere": "Hip hop",
+        "produttore": "DVLP"
+      }
+    ]
+  }
+  
